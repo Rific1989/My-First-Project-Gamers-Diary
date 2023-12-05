@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1155px){
+    .right-page {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /*************Nadpis: NOVINKY*********/
+    .news h1 {
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    .news-info {
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    /*************Boxíky na novinky*********/
+    .news-info {
+        width: 350px;
+    }
+
+    .advertistment {
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .left-page {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: -50px;
+    }
+
+    .quiz-section {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    /********Mobilní navigace***********/
+    nav ul li {
+        float: none;
+    }
+
+    .mobile-nav-back {
+        height: 250px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+        z-index: -1;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        z-index: 2;
+        position: fixed;
+        right: 5px;
+    }
+
+    /*Display: none, způsobuje problémy*/
+    nav ul {
+        display: none;
+        margin: 0 auto;
+    }
+
+    nav {
+        height: 50px;
+    }
+}
+
+/***************Zobrazení navigace při znovu roztáhnutí okna*********************/
+@media only screen and (min-width: 1155px){
+    nav ul {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .quiz-section {
+        width: 100%;
+    }
+
+    #kviz {
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 625px){
+    #kviz {
+        width: 470px;
+        margin: 0 auto;
+    }
+
+    input[type="submit"] {
+        margin-left: 135px;
+        margin-top: 30px;
+    }
+
+    #result {
+        text-align: center;
+    }
+}

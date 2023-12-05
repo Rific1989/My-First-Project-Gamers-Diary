@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1155px){
+    .right-page {
+        width: 100%;
+        margin-top: 85px;
+    }
+
+    /*************Nadpis: NOVINKY*********/
+    .news h1 {
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    .news-info {
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    /*************Boxíky na novinky*********/
+    .news-info {
+        width: 350px;
+    }
+
+    .advertistment {
+        margin: 10px auto;
+    }
+
+    .left-page {
+        width: 100%;
+        margin-top: 55px;
+        margin-bottom: -50px;
+    }
+
+    .article-completed {
+        margin: 0 auto;
+    }   
+}
+
+/***************Zobrazení navigace při znovu roztáhnutí okna*********************/
+@media only screen and (min-width: 1155px){
+    nav ul {
+        display: block !important;
+    }
+}
+
+/**********Mobilní navigace****************/
+@media only screen and (max-width: 1112px){
+    nav ul li {
+        float: none;
+    }
+
+    .mobile-nav-back {
+        height: 250px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+        z-index: -1;
+        }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        z-index: 2;
+        position: fixed;
+        right: 5px;
+    }
+
+    /*Display: none, způsobuje problémy*/
+    nav ul {
+        display: none;
+        margin: 0 auto;
+    }
+
+    nav {
+        height: 50px;
+    } 
+}
+
+@media only screen and (max-width: 750px){
+    .article-completed {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+/*************Skupina dvou fotek - vedle sebe**********************/
+    .two-pictures-second {
+        margin-left: 7px;
+    }
+
+/*************Skupina dvou fotek - vedle sebe, pod sebou**********************/
+    .four-pictures-topspace {
+        margin-left: 7px;
+    }
+
+}
+
+@media only screen and (max-width: 610px){
+/*************Skupina dvou fotek - vedle sebe**********************/
+    .two-pictures img {
+        width: 100%;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+
+    .four-pictures img {
+        width: 100%;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+
+    .article-completed h1 {
+        text-align: center;
+    }
+
+    .article-completed h3 {
+        text-align: center;
+    }
+
+    .article-completed .lure-text {
+        font-size: 42px;
+    }
+}

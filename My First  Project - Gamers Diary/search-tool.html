@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon_gd.png">
+    <link rel="stylesheet" href="css/search-tool.css">
+    <link rel="stylesheet" href="css/queries/queries-search-tool.css">
+     <!--jQuery-->
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous"></script>
+     <!--jQuery script-->
+     <script src="js/jQuery-responsive-menu.js"></script>
+    <title>Vyhledávač obsahu</title>
+</head>
+<body>
+
+    <header class="row">
+        <nav class="row">
+            <h1><a href="index.html">Gamer's DIARY</a></h1>
+            <ul>
+                <li><a href="search-tool.html">Vyhledat</a></li>
+                <li><a href="#">Články</a></li>
+                <li><a href="kvizy.html">Kvízy</a></li>          
+                <li><a href="#">Appky</a></li>       
+                <li><a href="oAutorovi.html" target="_blank">O autorovi</a></li>   
+            </ul>
+            
+            <!--Mobilní navigace-->
+            <div class="mobile-nav-back"></div>
+            <a class="mobile-nav-icon jq--nav-icon"><img class="jq--image-hamburger" src="images/hamburgerMenu.png" alt=""></a>
+
+        </nav>
+        <!--Vypnutí FLOAT-->
+        <div class="clearfix"></div>    
+    </header>
+
+
+    <main class="row">
+<!---------------------Levá část stránky---------------->
+    <div class="left-page">
+        <div class="look-for">
+            <h1>Vyhledávač obsahu</h1>
+            <input id="look-for-input" type="text" placeholder="Zadejte, co hledáte...">
+            <!--Vypsání vyhledaných výsledků-->
+            <div id="games-schedule">
+            
+            </div>
+        </div>
+    </div>
+
+
+
+<!---------------------Pravá část stránky---------------->
+        <div class="right-page"> 
+            <!--Sekce NOVINKY-->
+            <aside>
+                <div class="news">
+                    <h1>Novinky</h1>
+                    <div class="news-info">
+                        <a href="unchartedOneArticle.html"><img src="img-unchartedOne/uncharted_1.jpg" alt=""></a>
+                        <h4>Uncharted: Drake's Fortune</h4>
+                        <p class="news-info-p-height">Nové dobrodružství jako ze světa Indiana Jonese. Toto je Nathan Drake a jeho dobrodružství.</p>
+                        <p class="label-rp">Herní dojmy</p>
+                    </div>
+                    <div class="news-info">
+                        <a href="farCryFiveArticle.html"><img src="img-farCryFive/farCryFive_2.jpg" alt=""></a>
+                        <h4>Far Cry 5</h4>
+                        <p class="news-info-p-height">Pátý díl oblíbené série Far Cry. Tentokrát se podíváme do krásné, hornaté Montany.</p>
+                        <p class="label-rp">Herní dojmy</p>
+                    </div>
+                    <div class="news-info">
+                        <a href="metalGearSolidFiveArticle.html"><img src="img-metalGearSolidFive/mgsV_1.jpg" alt=""></a>
+                        <h4>MGS V: Phantom Pain</h4>
+                        <p class="news-info-p-height">MGS se loučí a má v plánu to udělat ve velkém stylu. Vydejte se s Big Bossem na jeho poslední misi.</p>
+                        <p class="label-rp">Herní dojmy</p>
+                    </div>
+                    <div class="news-info">
+                        <a href="bookTomRaiderTenThousandImmortalsArticle.html"><img src="img-TombRaiderBook/TR_1.jpg" alt=""></a>
+                        <h4>Kniha Tomb Raider</h4>
+                        <p class="news-info-p-height">Máte rádi Laru Croft? Zkuste si její dobrodružství tentokrát přečíst. Kniha je zatím pouze v anglickém jazyce.</p>
+                        <p class="label-rp">Knížky</p>
+                    </div>
+                    <div class="news-info">
+                        <a href="top5KladnePostavy.html"><img src="img-top5KladnePostavy/top_five_heros.jpg" alt=""></a>
+                        <h4>Hrdinové herního světa</h4>
+                        <p class="news-info-p-height">Výběr pěti kladných postav, díky kterým mě svět hraní naprosto pohltil. Toto jsou mí oblíbení hrdinové.</p>
+                        <p class="label-rp">TOP 5</p>
+                    </div>
+                </div>
+                 <!--Vypnutí FLOAT-->
+                <div class="clearfix"></div> 
+            </aside>
+            
+            <!--Místo pro reklamu-->
+            <aside>
+                <div class="advertistment">
+                    <h2>Místo pro vaši reklamu.</h2>
+                    <p>V případě zájmu spolupráce klikněte na odkaz níže a kontaktujte autora stránek.</p><br>
+                    <p><a href="oAutorovi.html" target="_blank">John Rific</a></p>
+                </div>
+            </aside>
+    </main>
+
+    <!--Vypnutí FLOAT-->
+    <div class="clearfix"></div> 
+    
+    <footer class="row">
+        <p>Copyright &copy 2023 Gamer's DIARY. Všechna práva vyhrazena.</p>    
+    </footer>
+    
+</body>
+<script src="js/search-tool.js"></script>
+</html>

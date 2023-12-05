@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1155px){
+    .right-page {
+        width: 100%;
+        margin-top: 85px;
+    }
+
+    .news h1 {
+        margin: 0 auto;
+    }
+
+    .news-info {
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    .advertistment {
+        margin: 10px auto;
+    }
+
+    .left-page {
+        width: 98%;
+        margin-top: 55px;
+        margin-bottom: -50px;
+    }
+
+    .article-box {
+        margin: 0 auto;
+    }
+
+    /**********Menu pro mobily*****************/
+    nav ul li {
+        float: none;
+    }
+
+    .mobile-nav-back {
+        height: 250px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+        z-index: -1;
+        }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        z-index: 2;
+        position: fixed;
+        right: 5px;
+    }
+
+    nav ul {
+        display: none;
+        margin: 0 auto;
+    }
+
+    nav {
+        height: 50px;
+    }
+}
+
+/***************Zobrazení navigace při znovu roztáhnutí okna*********************/
+@media only screen and (min-width: 1155px){
+    nav ul {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 1112px){
+    .left-page {
+        margin-top: 55px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: -50px;
+    }
+}
+    @media only screen and (max-width: 784px){
+        .left-page {
+            margin-top: 55px;
+            margin-bottom: -70px;
+        }
+
+        .main-picture {
+            width: 150px;
+            height: 130px;
+            margin-top: 30px;
+        }
+
+        .article-box {
+            width: 100%;
+            height: 200px;
+        }
+
+        .article-box-content {
+            height: 170px;
+            margin-left: -70px;
+            margin-bottom: -5px;
+        }
+
+        .author-link a:link,
+        .author-link a:visited {
+            text-decoration: none;
+            color: black;
+            margin-left: -70px;
+        }
+
+        .label {
+            margin-bottom: 25px;
+        }
+    }
+
+    @media only screen and (max-width: 675px){
+        .left-page {
+            margin-top: 55px;
+            margin-bottom: -70px;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+    
+        .article-box {
+            height: 200px;
+        }
+
+        .published {
+            margin-left: 50px;
+        }
+
+        .left-page {
+            margin-top: 55px;
+            margin-bottom: -70px;
+        }
+
+        .article-box {
+            height: 320px;
+        }
+
+        .article-box-content {
+            height: 280px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .published {
+            margin-left: 40px;
+        }
+
+        .info-content {
+            margin-left: 106px;
+        }
+
+        .label {
+            margin-right: 40px;
+        }
+    }
+
+    

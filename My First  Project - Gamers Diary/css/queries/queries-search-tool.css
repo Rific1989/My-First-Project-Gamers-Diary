@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1155px){
+    .right-page {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /*************Nadpis: NOVINKY*********/
+    .news h1 {
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    .news-info {
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    /*************Boxíky na novinky*********/
+    .news-info {
+        width: 350px;
+    }
+
+    .advertistment {
+        margin: 10px auto;
+    }
+
+    .left-page {
+        width: 100%;
+        margin-top: 55px;
+        margin-bottom: -50px;
+    }
+
+    .look-for {
+        width: 650px;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    #look-for-input {
+        width: 350px;
+       
+    }
+
+    #games-schedule {
+        margin: 0 auto;
+        width: 650px;
+    }
+
+    #games-schedule p a {
+        text-align: center;
+        max-width: 650px;
+    }
+
+    /*********Mobilní navigace***********/
+    nav ul li {
+        float: none;
+    }
+
+    .mobile-nav-back {
+        height: 250px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+        z-index: -1;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        z-index: 2;
+        position: fixed;
+        right: 5px;
+    }
+
+    /*Display: none, způsobuje problémy*/
+    nav ul {
+        display: none;
+        margin: 0 auto;
+    }
+
+    nav {
+        height: 50px;
+    }
+}
+
+/***************Zobrazení navigace při znovu roztáhnutí okna*********************/
+@media only screen and (min-width: 1155px){
+    nav ul {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 910px){
+    .look-for {
+        width: 650px;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+    
+    #games-schedule {
+        margin: 0 auto;
+        width: 650px;
+    }
+    
+    
+    #games-schedule p a {
+        text-align: center;
+        max-width: 650px;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    .look-for {
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    #look-for-input {
+        width: 350px;
+       
+    }
+
+    #games-schedule {
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    #games-schedule p a {
+        text-align: center;
+        max-width: 350px;
+    }
+}
